@@ -1,0 +1,67 @@
+.bg-g{
+    background-color:   #1ABC9C;
+}
+.line{
+    height: 4px;
+    width: 80px;
+}
+.photo{
+    width: 250px;
+}
+.copyright{
+    background-color: #1A252F;
+}
+.footer{
+    background-color: #2C3E50;
+}
+.social-icons i{
+border: 1px solid white;
+border-radius: 50%;
+padding: 10px;
+}
+.bg-c{
+    background-color: #2C3E50;
+}
+.active{
+   background-color:  #1ABC9C !important;
+ border-radius: 10%;
+  
+}
+.form-control{
+    border: 0 !important;
+    border-bottom: #c0c5ca solid 1px !important;
+}
+.hover-effect .image {
+    transition: 0.5s ease;
+    opacity: 1;
+    
+  }
+.hover-effect:hover{
+    background-color:  #1ABC9C;
+    opacity: 0.9;
+    transition: 0.5s ease-in-out;
+}
+  .hover-effect:hover .image {
+    opacity: 0.3;
+    
+  }
+
+  .hover-effect .middle {
+    opacity: 0;
+    transition: 0.5s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hover-effect:hover .middle {
+    opacity: 1;
+    
+  }
+
+  .text {
+  
+    padding: 16px 32px;
+ 
+  }

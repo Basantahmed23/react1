@@ -1,5 +1,6 @@
-import'./footer.css'
-export function Footer(){
+import { Link } from "react-router-dom";
+
+export default function Footer(){
 
 return(
    <>
@@ -13,10 +14,10 @@ return(
     <div className="col-md-4">
       <h5 className="fw-bold fs-4">AROUND THE WEB</h5>
       <div className="social-icons d-flex gap-3  justify-content-center">
-        <a href="#"><i className=" text-white fa-brands fa-facebook"></i></a>
-        <a href="#"><i className="text-white fa-brands fa-twitter"></i></a>
-        <a href="#"><i className="text-white fa-brands fa-linkedin"></i></a>
-        <a href="#"><i className=" text-white fa-solid fa-earth-europe"></i></a>
+        <Link to="#"><i className=" text-white fa-brands fa-facebook"></i></Link>
+        <Link to="#"><i className="text-white fa-brands fa-twitter"></i></Link>
+        <Link to="#"><i className="text-white fa-brands fa-linkedin"></i></Link>
+        <Link to="#"><i className=" text-white fa-solid fa-earth-europe"></i></Link>
        
       </div>
     </div>
@@ -32,7 +33,7 @@ return(
 
   <div className="row copyright text-center mt-4">
     <div className="col-12 text-white ">
-      <p>Copyright © Your Website 2021</p>
+      <p>Copyright © Basant 2025</p>
     </div>
   </div>
 </div>
